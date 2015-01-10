@@ -6,12 +6,19 @@ using namespace::std;
 
 int a[4];
 
-int* ascend(int n){
+bool compare(int a, int b){
+	return a > b;
+}
+
+int* sortnum(int n, bool flag){
 	for (int i = 0; i < 4; i++){
 		a[i] = n % 10;
 		n = n / 10;
 	}
-	sort(a, a+4);
+	if (flag)
+		sort(a, a + 4);
+	else
+		sort(a, a + 4, compare);
 	return a;
 }
 
@@ -24,18 +31,11 @@ int array2num(int *a){
 }
 
 int anum(int n) {
-	return array2num(ascend(n));
+	return array2num(sortnum(n, true));
 }
 
 int dnum(int n) {
-	int *a, tmp;
-	a = ascend(n);
-	for (int i = 0; i <= 1; i++){
-		tmp = a[i];
-		a[i] = a[3 - i];
-		a[3 - i] = tmp;
-	}
-	return array2num(a);
+	return array2num(sortnum(n, false));
 }
 
 int main(){
