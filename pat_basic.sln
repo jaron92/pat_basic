@@ -35,6 +35,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pat1030", "pat1030\pat1030.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pat1031", "pat1031\pat1031.vcxproj", "{FDB5DE63-0633-468E-91CB-19942DA12EA9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pat1032", "pat1032\pat1032.vcxproj", "{50389ECD-72DE-4612-84BB-9A327C0BC8D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pat1033", "pat1033\pat1033.vcxproj", "{4927B874-2BFB-490A-95F2-7442F178DC20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -105,6 +109,14 @@ Global
 		{FDB5DE63-0633-468E-91CB-19942DA12EA9}.Debug|Win32.Build.0 = Debug|Win32
 		{FDB5DE63-0633-468E-91CB-19942DA12EA9}.Release|Win32.ActiveCfg = Release|Win32
 		{FDB5DE63-0633-468E-91CB-19942DA12EA9}.Release|Win32.Build.0 = Release|Win32
+		{50389ECD-72DE-4612-84BB-9A327C0BC8D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{50389ECD-72DE-4612-84BB-9A327C0BC8D5}.Debug|Win32.Build.0 = Debug|Win32
+		{50389ECD-72DE-4612-84BB-9A327C0BC8D5}.Release|Win32.ActiveCfg = Release|Win32
+		{50389ECD-72DE-4612-84BB-9A327C0BC8D5}.Release|Win32.Build.0 = Release|Win32
+		{4927B874-2BFB-490A-95F2-7442F178DC20}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4927B874-2BFB-490A-95F2-7442F178DC20}.Debug|Win32.Build.0 = Debug|Win32
+		{4927B874-2BFB-490A-95F2-7442F178DC20}.Release|Win32.ActiveCfg = Release|Win32
+		{4927B874-2BFB-490A-95F2-7442F178DC20}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
