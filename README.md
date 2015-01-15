@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 pat_basic
 =========
 
 =======
-# pat_basic
->>>>>>> devlopment
-solutions for pat(basic level)
+
+这是pat basic（乙级）的题解。
+
